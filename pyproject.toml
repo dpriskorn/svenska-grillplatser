@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "wkb-converter"
+version = "0.1.0"
+description = "A tool to convert geometry formats to GPS coordinates."
+authors = ["Nizo Priskorn <nizo.priskorn@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+shapely = "^2.0.1"
+pyproj = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
